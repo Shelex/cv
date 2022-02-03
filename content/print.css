@@ -1,0 +1,9 @@
+@media print {
+  a[href]:after {
+    content: "\A" attr(href) "\A";
+  }
+  .no-print, .no-print *{
+    display: none !important;
+    height: 0;
+}
+}
